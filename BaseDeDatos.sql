@@ -36,7 +36,7 @@ CREATE TABLE producto (
   precio INT(10)NOT NULL COMMENT 'Precio del Producto',
   cantidad INT(50) NOT NULL COMMENT 'Cantidad del producto',
   provedor VARCHAR(255) NOT NULL COMMENT 'Nombre del proveedor del producto',
-  id_refencia VARCHAR(255) PRIMARY KEY NOT NULL COMMENT 'Codigo de refencia del producto'
+  idrefencia VARCHAR(255) PRIMARY KEY NOT NULL COMMENT 'Codigo de refencia del producto'
 );
 
 CREATE TABLE cajero (
