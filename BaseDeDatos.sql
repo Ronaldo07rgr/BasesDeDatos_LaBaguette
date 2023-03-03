@@ -13,7 +13,7 @@ CREATE TABLE login (
     productos VARCHAR(255) NOT NULL COMMENT 'Stock de Productos',
     estado INT(10) NOT NULL COMMENT 'Estado del Producto ',
     cantidad VARCHAR(255) NOT NULL COMMENT 'Cantidad de los Productos disponibles',
-    IDusuario INT(11) PRIMARY KEY NOT NULL COMMENT 'Codigo dato al usurio registrado',
+    id_usuario INT(11) PRIMARY KEY NOT NULL COMMENT 'Codigo dato al usurio registrado',
     usurio VARCHAR(255) NOT NULL COMMENT 'Nombre identificador del usuario'
 );
 
@@ -36,7 +36,7 @@ CREATE TABLE producto (
   precio INT(10)NOT NULL COMMENT 'Precio del Producto',
   cantidad INT(50) NOT NULL COMMENT 'Cantidad del producto',
   provedor VARCHAR(255) NOT NULL COMMENT 'Nombre del proveedor del producto',
-  idrefencia VARCHAR(255) PRIMARY KEY NOT NULL COMMENT 'Codigo de refencia del producto'
+  id_refencia VARCHAR(255) PRIMARY KEY NOT NULL COMMENT 'Codigo de refencia del producto'
 );
 
 CREATE TABLE cajero (
