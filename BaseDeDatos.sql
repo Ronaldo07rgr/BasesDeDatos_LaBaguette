@@ -24,9 +24,9 @@ CREATE TABLE login (
 );
 
  CREATE TABLE ventas (
-   fechas DATE /*CAMBIOS DE VARCHAR A DATE*/ NOT NULL COMMENT 'Fecha en la que se realizo la compra',
+   fechas DATE /*CAMBIOS DE VARCHAR A DATE*/ NOT NULL COMMENT 'Fecha en la que se realizo la venta',
    hora TIME /*CAMBIOS DE VARCHAR A TIME*/NOT NULL COMMMENT 'Hora en la que se realizo la venta',
-   IDventa VARCHAR(11) PRIMARY KEY NOT NULL COMMENT 'Registro unico de la venta',
+   id_venta VARCHAR(11) PRIMARY KEY NOT NULL COMMENT 'Registro unico de la venta',
    total VARCHAR(255) NOT NULL COMMENT 'Valor de total de la venta',
    factura VARCHAR(255) NOT NULL COMMENT 'Factura generada por la venta'   
 );
